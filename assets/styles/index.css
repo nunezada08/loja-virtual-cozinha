@@ -7,13 +7,84 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background-color: #F5F5F5;
+}
+
 header {
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: #28282B;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    height: 90px;
+    margin-left: 20px;
+}
+
+#iconesHeader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 20px;
+}
+
+.iconesHome {
+    height: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.iconesHome:hover {
+    transition: all 0.5s ease;
+    background-color: #B87333;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bannerHome {
+    width: 90%;
+    padding: 20px;
+    height: 650px;
+    border-radius: 80px;
+
+}
+
+#receitasFaceis {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+    align-self: flex-start;
+}
+
+#receitasFaceis h1 {
+    margin-left: 100px;
+    color: #28282B;
+}
+
+#receitasDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    height: 300x;
+}
+
+.receitaSection {
+    background-color: #28282B;
+    width: 30%;
+    height: 350px;
+    border-radius: 30px;
 }
